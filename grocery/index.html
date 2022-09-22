@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a0818328d.js" crossorigin="anonymous"></script>
+    <title>grocery Bud</title>
+</head>
+<body>
+    <section class="container" id="container">
+        <h2 class="head">Grocery Bud</h2>
+        <form id="form">
+            <label for="grocery"></label>
+            <input type="text" name="grocery" id="grocery" placeholder="type you want">
+            <input type="submit" value="add" class="btn">
+        </form>
+        <div class="grocery-list">
+            <ul id="bar">
+                <li id="name">name</li>
+                <div class="markers">
+                    <li class="trash"><i class="fa-solid fa-trash"></i></li>
+                    <li class="edit"><i class="fa-solid fa-pen-to-square"></i></li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
